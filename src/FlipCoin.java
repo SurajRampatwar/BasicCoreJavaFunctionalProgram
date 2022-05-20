@@ -17,9 +17,9 @@ public class FlipCoin {
         }
         System.out.println("Tails = " + countTails);
         System.out.println("Heads = " + countHeads);
-        int percentTail=(countTails*100)/nTimesFlipped;
-        int percentHead=(countHeads*100)/nTimesFlipped;
-        System.out.println("Tail Percent "+percentTail);
-        System.out.println("Head Precent "+percentHead);
+        int percentTail = (countTails * 100) / nTimesFlipped;
+        int percentHead = (countHeads * 100) / nTimesFlipped;
+        System.out.println("Tail Percent " + percentTail);
+        System.out.println("Head Precent " + percentHead);
     }
 }
